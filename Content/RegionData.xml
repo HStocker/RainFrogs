@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Regions>
+  <Region tag="water">
+    
+  </Region>
+  <Region tag="grass">
+
+  </Region>
+  <Region tag="rocks">
+
+  </Region>
+  <Region tag="beach">
+
+  </Region>
+  <Region tag="plain">
+
+  </Region>
+  <Region tag="forest">
+
+  </Region>
+  <Region tag="deep forest">
+
+  </Region>
+  <Region tag="point">
+
+  </Region>
+  <Region tag="swamp">
+
+  </Region>
+</Regions>

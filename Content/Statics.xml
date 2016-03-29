@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rainfrogs>
+  <Buildings>
+    <building sprite="Merchant">
+      
+      <floor x ="0" y="0" width="151" height="62" locX="4" locY="29"/>
+      
+      <roof x="151" y="0" width ="159" height="78"/>
+      
+      <walls>
+        <wall>
+          <sprite x="0" y="62" width="67" height="24"/>
+          <location x="0" y="73"/>
+          <hitbox x="0" y="91" width="66" height="6"/>
+        </wall>
+        <wall>
+          <sprite x="0" y="86" width="106" height="29"/>
+          <location x="0" y="0"/>
+          <hitbox x="0" y="18" width="105" height="10"/>
+        </wall>
+        <wall>
+          <sprite x="66" y="62" width ="73" height="24"/>
+          <location x="86" y="73"/>
+          <hitbox x="86" y="91" width="73" height="6"/>
+        </wall>
+        <wall>
+          <sprite x="106" y="86" width ="33" height="29"/>
+          <location x="126" y="0"/>
+          <hitbox x="126" y="18" width="32" height="10"/>
+        </wall>
+        <wall>
+          <sprite x="139" y="62" width ="5" height="44"/>
+          <location x="0" y="29"/>
+          <hitbox x="0" y="29" width="5" height="49"/>
+        </wall>
+        <wall>
+          <sprite x="139" y="62" width ="5" height="44"/>
+          <location x="154" y="29"/>
+          <hitbox x="154" y="29" width="5" height="49"/>
+        </wall>
+        <wall>
+          <sprite x="0" y="115" width ="59" height="18"/>
+          <location x="76" y="37"/>
+          <hitbox x="76" y="44" width="60" height="12"/>
+        </wall>
+        <wall>
+          <sprite x="59" y="115" width ="13" height="26"/>
+          <location x="64" y="29"/>
+          <hitbox x="64" y="29" width="13" height="26"/>
+        </wall>
+        <wall>
+          <sprite x="0" y="0" width="0" height="0"/>
+          <location x="0" y="0"/>
+          <hitbox x="24" y="28" width="3" height="29"/>
+        </wall>
+      </walls>
+      
+      <bounds width="159" height="97"/>
+      
+      <other>
+        <static sprite="Stair">
+          <location x="3" y="2"/>
+        </static>
+        <static sprite="Doorstep">
+          <location x="65" y="91"/>
+        </static>
+        <chest sprite="Chest">
+          <location x="26" y="27"/>
+          <dimensions row="2" col="4"/>
+        </chest>
+        <bed sprite="Bed">
+          <location x="26" y="40"/>
+        </bed>
+      </other>
+    </building>
+  </Buildings>
+  <Scenery>
+    <static sprite="Tree" particles="true" destructible="false" above="false" below="false" solid="true" description ="true">
+      <sprite x ="0" y="0" width="57" height="63"/>
+      <hitbox x="50" y="144" width="76" height="35"/>
+      <description>A large leafy plant.</description>
+      <particle x ="10" y="65" width="141" height="30" type="leaves" frequency ="5000" life="800" above="true" below="false"/>
+    </static>
+    <static sprite="Bush1" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="0" y="63" width="25" height="15"/>
+      <hitbox x="0" y="0" width="75" height="54"/>
+      <description>A small leafy plant.</description>
+    </static>
+    <static sprite="Bush2" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="25" y="63" width="23" height="18"/>
+      <hitbox x="0" y="0" width="69" height="48"/>
+      <description>A small leafy plant.</description>
+    </static>
+    <static sprite="WhiteFlower" particles="false" destructible="true" above="false" below="false" solid="false">
+      <sprite x ="66" y="65" width="13" height="10"/>
+      <hitbox x ="0" y="15" width="39" height="15"/>
+      <description>A large leafy plant.</description>
+    </static>
+    <static sprite="RockMedium" particles="false" destructible="false" above="false" below="false" solid="true">
+      <sprite x ="57" y="10" width="22" height="16"/>
+      <hitbox x="5" y="0" width="61" height="48"/>
+      <description>Dwayne "I honestly don't find this
+joke that funny" Johnson.</description>
+    </static>
+    <static sprite="RockLarge" particles="false" destructible="false" above="false" below="false" solid="true">
+      <sprite x ="57" y="26" width="20" height="24"/>
+      <hitbox x="0" y="0" width="60" height="72"/>
+      <description>Slightly phallic?</description>
+    </static>
+    <static sprite="Crate" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="57" y="50" width="14" height="15"/>
+      <hitbox x="0" y="0" width="42" height="45"/>
+      <description>A large leafy plant.</description>
+    </static>
+    <static sprite="FenceEW" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="48" y="65" width="18" height="15"/>
+      <hitbox x="0" y="18" width="54" height="27"/>
+      <description>You admire the shape... 
+      you might be falling in love...</description>
+    </static>
+    <static sprite="Mushroom" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="79" y="0" width="62" height="63"/>
+      <hitbox x="80" y="145" width="53" height="40"/>
+      <description>A large leafy plant.</description>
+    </static>
+    <static sprite="StreetLamp" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="24" y="92" width="18" height="57"/>
+      <hitbox x="21" y="141" width="12" height="10"/>
+      <description>Tall and bright.</description>
+    </static>
+    <static sprite="Gear" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="64" y="75" width="74" height="52"/>
+      <hitbox x="21" y="141" width="12" height="10"/>
+      <description>Sunken and rusty.</description>
+    </static>
+    <static sprite="SmallGrass" particles="false" destructible="true" above="false" below="true" solid="false">
+      <sprite x ="141" y="0" width="16" height="16"/>
+      <hitbox x="0" y="0" width="48" height="48"/>
+      <description/>
+    </static>
+    <static sprite="Ruin" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="42" y="92" width="21" height="29"/>
+      <hitbox x="0" y="39" width="63" height="48"/>
+      <description>Old and ruined.</description>
+    </static>
+    <static sprite="Scarecrow" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="142" y="17" width="40" height="41"/>
+      <hitbox x="48" y="111" width="36" height="15"/>
+      <description>Old and ruined.</description>
+    </static>
+    <static sprite="Bed" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="42" y="128" width="37" height="29"/>
+      <hitbox x="0" y="30" width="111" height="57"/>
+      <description>Old and ruined.</description>
+    </static>
+    <static sprite="Stair" particles="false" destructible ="false" above="false" below="true" solid="false">
+      <sprite x="0" y="86" width="24" height="56"/>
+      <hitbox x="0" y="0" width="72" height="168"/>
+      <description/>
+    </static>
+    <static sprite="Doorstep" particles="false" destructible="false" above="false" below="true" solid="false">
+      <sprite x ="0" y="78" width="22" height="8"/>
+      <hitbox x="0" y="0" width="66" height="24"/>
+      <description/>
+    </static>
+    <static sprite="Chest" particles="false" destructible="true" above="false" below="false" solid="true">
+      <sprite x ="24" y="81" width="19" height="11"/>
+      <hitbox x="0" y="5" width="57" height="28"/>
+      <description/>
+    </static>
+    <static sprite="Grass" particles="false" destructible="true" above="false" below="false" solid="false">
+      <sprite x ="43" y="81" width="11" height="9"/>
+      <hitbox x="0" y="0" width="33" height="27"/>
+      <description/>
+    </static>
+    <static sprite="TallGrassCut" particles="false" destructible="true" above="false" below="false" solid="false">
+      <sprite x ="112" y="70" width="8" height="4"/>
+      <hitbox x="0" y="0" width="24" height="12"/>
+      <description/>
+    </static>
+    <static sprite="TallGrass1" particles="false" destructible="true" above="false" below="false" solid="false">
+      <sprite x ="122" y="66" width="11" height="8"/>
+      <hitbox x="0" y="12" width="33" height="12"/>
+      <description/>
+    </static>
+    <static sprite="TallGrass2" particles="false" destructible="true" above="false" below="false" solid="false">
+      <sprite x ="137" y="60" width="12" height="14"/>
+      <hitbox x="0" y="30" width="36" height="12"/>
+      <description/>
+    </static>
+    
+  </Scenery>
+  <Misc></Misc>
+  <Crops>
+    <crop sprite="Wheat" particles="leaves" tool ="Scythe" solid="false" grow="50000">
+      <sprite x ="0" y="0" width="16" height="24"/>
+      <sprite x="0" y="24" width="16" height="24"/>
+    </crop>
+    <crop sprite="Corn" particles="leaves" tool ="Scythe" solid="false" grow="5000">
+      <sprite x ="16" y="0" width="16" height="24"/>
+      <sprite x="16" y="24" width="16" height="24"/>
+    </crop>
+  </Crops>
+  
+</Rainfrogs>

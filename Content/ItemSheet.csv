@@ -1,0 +1,12 @@
+Pick,0,0,0,420,Tool
+Shovel,18,0,0,180,Tool
+FishingRod,36,0,0,180,Tool
+Hoe,54,0,0,360,Tool
+Hammer,72,0,0,180,Tool
+WateringCan,90,0,0,180,Tool
+Apple,0,18,0,180,Item
+Rock,18,18,0,180,Item
+Flower,36,18,0,180,Item
+Wheat,54,18,0,180,Item
+Scythe,72,18,0,420,Tool
+Wheat Seeds,90,18,0,420,Tool
